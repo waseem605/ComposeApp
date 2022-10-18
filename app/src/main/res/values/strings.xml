@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ComposeApp</string>
+    <string name="title_activity_gps_main">GpsMainActivity</string>
+    <string name="title_activity_home_fragment">HomeFragment</string>
 </resources>

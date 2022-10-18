@@ -18,11 +18,6 @@ sealed class Screen(
     object Contact : Screen("contact", "Contact", Icons.Outlined.Phone)
     object Profile : Screen("profile", "Profile", Icons.Outlined.Person)
 
-    object Items {
-        val list = listOf(
-            Home, Search, Contact, Profile
-        )
-    }
 }
 
 

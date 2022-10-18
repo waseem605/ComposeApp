@@ -3,7 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.android.composeapp">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
+        android:name=".searchImage.BaseApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -13,6 +15,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ComposeApp"
         tools:targetApi="31">
+
+        <activity
+            android:name=".bottomNavigation.GpsMainActivity"
+            android:exported="false"
+            android:label="@string/title_activity_gps_main"
+            android:theme="@style/Theme.ComposeApp" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
